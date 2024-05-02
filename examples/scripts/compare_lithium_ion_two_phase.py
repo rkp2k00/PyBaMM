@@ -6,7 +6,7 @@ import pybamm
 pybamm.set_logging_level("INFO")
 # load models
 options = {
-    "particle phases": ("2", "1"),
+    #"particle phases": ("2", "1"),
     "open-circuit potential": (("single", "current sigmoid"), "single"),
 }
 models = [
